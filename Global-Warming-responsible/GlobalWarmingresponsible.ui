@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GlobalWarmingresponsibleClass</class>
+ <widget class="QMainWindow" name="GlobalWarmingresponsibleClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Who is the responsible</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/planet.png</normaloff>image/planet.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="minimumSize">
+       <size>
+        <width>64</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>64</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft PhagsPa</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TOP 5:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>6</number>
+      </property>
+      <property name="setAlignment" stdset="0">
+       <string>AlignBottom</string>
+      </property>
+      <property name="setVisible" stdset="0">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="tabWorld">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/planet.png</normaloff>image/planet.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>World</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QChartView" name="graphicsViewW">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>481</height>
+           </size>
+          </property>
+          <property name="setAlignment" stdset="0">
+           <string>AlignBottom</string>
+          </property>
+          <property name="setTitle" stdset="0">
+           <string>&quot;Europe&quot;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabEU">
+       <property name="setAlignment" stdset="0">
+        <string>AlignBottom</string>
+       </property>
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/eu.png</normaloff>image/eu.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Europe</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QChartView" name="graphicsViewEU">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>481</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabNA">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/usn.png</normaloff>image/usn.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>North America</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QChartView" name="graphicsViewNA">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>481</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSA">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/ams.png</normaloff>image/ams.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>South America</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QChartView" name="graphicsViewSA">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>481</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabAF">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/af.png</normaloff>image/af.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Africa</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QChartView" name="graphicsViewAF">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>481</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabAS">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/asi.png</normaloff>image/asi.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Asia</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QChartView" name="graphicsViewAS">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>481</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabOC">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>image/au.png</normaloff>image/au.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Oceania</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QChartView" name="graphicsViewOC">
+          <property name="minimumSize">
+           <size>
+            <width>751</width>
+            <height>692</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QChartView" name="graphicsViewBar">
+      <property name="minimumSize">
+       <size>
+        <width>301</width>
+        <height>702</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>406</width>
+        <height>741</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header>QtCharts</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="GlobalWarmingresponsible.qrc"/>
+ </resources>
+ <connections/>
+</ui>
