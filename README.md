@@ -111,7 +111,7 @@ qu’une seule fois.
 L’utilisation de Qt5 ainsi que des QCharts (Graphiques intégré à Qt) à permit de rendre les données
 plus significative</p>
 
-<img src="https://github.com/ClementGib/PyDock/blob/master/Images/GET.PNG">
+<img src="https://github.com/ClementGib/Global-Warming-responsible-Co2-emission-/blob/master/image/TP_Mongo-Gibert_Cl%C3%A9ment_all.jpg">
 
 <p> L’application permet d’afficher l’émission des gaz à effet de serre de chaque continents (onglets)
 mais aussi un top 5 des pays émetteurs.
@@ -128,5 +128,5 @@ l’exécutable) : </p>
 * Qt5Widgets.dll
 * zlib1.dll
 
-<img src="https://github.com/ClementGib/PyDock/blob/master/Images/GET.PNG">
-<img src="https://github.com/ClementGib/PyDock/blob/master/Images/GET.PNG">
+<img src="https://github.com/ClementGib/Global-Warming-responsible-Co2-emission-/blob/master/image/TP_Mongo-Gibert_Cl%C3%A9ment_gaz.jpg">
+<img src="https://github.com/ClementGib/Global-Warming-responsible-Co2-emission-/blob/master/image/TP_Mongo-Gibert_Cl%C3%A9ment_gaz.jpg">
