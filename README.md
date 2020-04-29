@@ -87,47 +87,27 @@ __Collection: countries:__
 |                  |                                          |
 |                  |                                          |
 
-"_id" ObjectId("5dc968abcd1989356756960a")
-"Country Name" "Australia"
-"Country Code" "AUS"
-"Indicator Name" "CO2 emissions (metric tons per capita)"
-"Indicator Code" "EN.ATM.CO2E.PC"
-"1960" 8.58293664258675
-“…” “…”
-"2014" 15.3887660194467
-Collection: info
-"_id" ObjectId("5dc968abcd1989356756960a")
-"Country Code" "ABW"
-"Region" "Latin America & Caribbean"
-"IncomeGroup" "High income"
-"SpecialNotes" "Central Bureau of Statistics and Central Bank of
-Aruba ; Source of population estimates: UN
-Population Division's World Population
-Prospects 2019 PROVISIONAL estimates. Not for
-circulation. Subject to change. Mining is
-included in agriculture \nElectricty and gas
-includes manufactures of refined petroleoum
-products"
-"TableName" "Aruba"
-PROJET :
-Le projet a été développé via Visual Studio 2019 avec les drivers incluant les librairies mongos pour
-pouvoir échanger avec le serveur :
-• bsoncxx
-• mongocxx
-L’usage de mongoDB à été faite via un singleton (class static), afin de s’assurer qu’il soit instancié
+__Collection : info__
+| "_id"            | ObjectId("5dc968abcd1989356756960a")     |
+|------------------|------------------------------------------|
+| "Country Name"   | "Australia"                              |
+| "Country Code"   | "AUS"                                    |
+| "Indicator Name" | "CO2 emissions (metric tons per capita)" |
+| "Indicator Code" | "EN.ATM.CO2E.PC"                         |
+| "1960"           | 8.58293664258675                         |
+|  ...             | “…”                                      |
+| "2014"           | 15.3887660194467                         |
+
+
+# PROJET :
+<p> Le projet a été développé via Visual Studio 2019 avec les drivers incluant les librairies mongos pour
+pouvoir échanger avec le serveur : </p>
+
+* bsoncxx
+* mongocxx
+
+<p>L’usage de mongoDB à été faite via un singleton (class static), afin de s’assurer qu’il soit instancié
 qu’une seule fois.
 L’utilisation de Qt5 ainsi que des QCharts (Graphiques intégré à Qt) à permit de rendre les données
-plus significative
-L’application permet d’afficher l’émission des gaz à effet de serre de chaque continents (onglets)
-mais aussi un top 5 des pays émetteurs.
-Pour exécuter l’application il faut être sur Windows 10 et posséder les DLL suivant (répertoire de
-l’exécutable) :
-• bsoncxx.dll
-• libbson-1.0.dll
-• libmongoc-1.0.dll
-• mongocxx.dll
-• Qt5Charts.dll
-• Qt5Core.dll
-• Qt5Gui.dll
-• Qt5Widgets.dll
-• zlib1.dll
+plus significative</p>
+
