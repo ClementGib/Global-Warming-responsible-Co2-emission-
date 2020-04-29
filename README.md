@@ -1,6 +1,6 @@
 
-### Projet MongoDB
-# Objectifs principaux :
+# Projet MongoDB
+## Objectifs principaux :
 * À rendre au plus tard le dimanche 3 novembre au soir (minuit au plus tard : essayez de vraiment respecter cette limite)
 * Projet personnel ou fait en groupe jusqu'à 3 personnes
 * La thématique du projet est libre : page web, autre type d'application...
@@ -10,13 +10,13 @@
 2. Technique : Quels choix techniques ont été faits? Pourquoi (traduction : JUSTIFIEZ VOS CHOIX TECHNIQUES) Quels autres outils avez-vous intégré à votre projet? (API, bibliothèque, autres...) Donnez les étapes précises qui permettent d'utiliser votre projet de façon efficace (installation etc...) Si vous utilisez des sources extérieures d'informations, merci de préciser lesquelles. Le document doit donc également clarifier LE FONCTIONNEMENT du projet.
 * À envoyer par Docker/Github/lien etc... (m)
 
-# Objectifs personnels :
+## Objectifs personnels :
 * Faire un projet cross-platform via CMake 3.16 (Windows, Unix, MacOS)
 * Faire un projet mongo permettant d’afficher les données de production de gaz à effet de serre des différents pays (d’après la base who-is-responsible-for-global-warming ).
 * Afficher la production de gaz à effet de serre des continents du monde via Qt 5
 * Faire un top 5 des pays ayant la plus grosse émissions de CO2 (metric tons per capita).
 
-# __MonDB driver :__
+## __MonDB driver :__
 __Linux:__
 ```bash
 "./bootstrap
@@ -42,7 +42,7 @@ Installdrivers MongoDB
 .\vcpkg.exe install mongo-cxx-driver:x64-windows
 ```
 
-# __Install Qt5 :__
+## __Install Qt5 :__
 
 __Visual Studio :__
 
@@ -53,7 +53,7 @@ cd .\Users\Cleme\Documents\vcpkg\
 ./vcpkg.exe install qt5-base:x64-windows
 ```
 
-# BASE MONGO :
+## BASE MONGO :
 __Importation de la collection contenant des infos générales sur les régions :__
 
 ```bash 
@@ -99,7 +99,7 @@ __Collection : info__
 | "2014"           | 15.3887660194467                         |
 
 
-# PROJET :
+## PROJET :
 <p> Le projet a été développé via Visual Studio 2019 avec les drivers incluant les librairies mongos pour
 pouvoir échanger avec le serveur : </p>
 
@@ -111,3 +111,22 @@ qu’une seule fois.
 L’utilisation de Qt5 ainsi que des QCharts (Graphiques intégré à Qt) à permit de rendre les données
 plus significative</p>
 
+<img src="https://github.com/ClementGib/PyDock/blob/master/Images/GET.PNG">
+
+<p> L’application permet d’afficher l’émission des gaz à effet de serre de chaque continents (onglets)
+mais aussi un top 5 des pays émetteurs.
+Pour exécuter l’application il faut être sur Windows 10 et posséder les DLL suivant (répertoire de
+l’exécutable) : </p>
+
+* bsoncxx.dll
+* libbson-1.0.dll
+* libmongoc-1.0.dll
+* mongocxx.dll
+* Qt5Charts.dll
+* Qt5Core.dll
+* Qt5Gui.dll
+* Qt5Widgets.dll
+* zlib1.dll
+
+<img src="https://github.com/ClementGib/PyDock/blob/master/Images/GET.PNG">
+<img src="https://github.com/ClementGib/PyDock/blob/master/Images/GET.PNG">
