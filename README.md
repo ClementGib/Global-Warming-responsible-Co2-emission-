@@ -42,26 +42,51 @@ Installdrivers MongoDB
 .\vcpkg.exe install mongo-cxx-driver:x64-windows
 ```
 
-__Install Qt5 :__
+# __Install Qt5 :__
 
+__Visual Studio :__
 
+ <p> Download vcpkg pour windows: </p>
 
-Visual Studio :
-Download vcpkg pour windows:
+```bash 
 cd .\Users\Cleme\Documents\vcpkg\
 ./vcpkg.exe install qt5-base:x64-windows
-BASE MONGO :
-Importation de la collection contenant des infos générales sur les régions :
+```
+
+# BASE MONGO :
+__Importation de la collection contenant des infos générales sur les régions :__
+
+```bash 
 mongoimport --db=GlobWarm --collection=info --type=csv --headerline --
 file=/mnt/c/Users/Cleme/Dropbox/X/XDev/DB/MongoDB/Projet/db/Metadata_Country_API_EN.A
 TM.CO2E.PC_DS2_en_csv_v2_10576797.csv
-Importation de la collection contenant la production de gaz à effet de serre pour chaque pays
-depuis 1960 :
+```
+
+__Importation de la collection contenant la production de gaz à effet de serre pour chaque pays
+depuis 1960 :__
+
+```bash 
 mongoimport --db=GlobWarm --collection=countries --type=csv --headerline --
 file=/mnt/c/Users/Cleme/Dropbox/X/XDev/DB/MongoDB/Projet/db/API_EN.ATM.CO2E.PC_DS2_e
 n_csv_v2_10576797.csv
+```
+```bash 
 sudo mongod --port=27017
-Collection: countries
+```
+__Collection: countries:__
+
+| "_id"            | ObjectId("5dc968abcd1989356756960a")     |
+|------------------|------------------------------------------|
+| "Country Name"   | "Australia"                              |
+| "Country Code"   | "AUS"                                    |
+| "Indicator Name" | "CO2 emissions (metric tons per capita)" |
+| "Indicator Code" | "EN.ATM.CO2E.PC"                         |
+| "1960"           | 8.58293664258675                         |
+|  ...             | “…”                                      |
+| "2014"           | 15.3887660194467                         |
+|                  |                                          |
+|                  |                                          |
+
 "_id" ObjectId("5dc968abcd1989356756960a")
 "Country Name" "Australia"
 "Country Code" "AUS"
