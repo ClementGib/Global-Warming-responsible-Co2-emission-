@@ -128,7 +128,7 @@ l’exécutable) : </p>
 * Qt5Widgets.dll
 * zlib1.dll
 
-<img src="https://github.com/ClementGib/Global-Warming-responsible-Co2-emission-/blob/master/image/TP_Mongo-Gibert_Cl%C3%A9ment_gaz.jpg">
+<img src="https://github.com/ClementGib/Global-Warming-responsible-Co2-emission-/blob/master/image/TP_Mongo-Gibert_Cl%C3%A9ment.jpg">
 
 __TOP 5 Countries:__
 
