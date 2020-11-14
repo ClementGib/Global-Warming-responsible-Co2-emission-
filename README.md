@@ -16,7 +16,7 @@
 * Afficher la production de gaz à effet de serre des continents du monde via Qt 5
 * Faire un top 5 des pays ayant la plus grosse émissions de CO2 (metric tons per capita).
 
-## __MonDB driver :__
+## __MongoDB driver :__
 __Linux:__
 ```bash
 "./bootstrap
